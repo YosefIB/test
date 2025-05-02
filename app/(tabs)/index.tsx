@@ -18,6 +18,11 @@ export default function HomeScreen() {
       <Link href="/ShoppingManagement" style={styles.button}>
         <ThemedText type="button">Manage Shopping</ThemedText>
       </Link>
+
+      <ThemedText type="title" style={styles.casinoTitle}>Casino Game</ThemedText>
+      <Link href="/casino/CasinoGame" style={styles.button}>
+        <ThemedText type="button">Try Your Luck</ThemedText>
+      </Link>
     </ThemedView>
   );
 }
@@ -42,6 +47,9 @@ const styles = StyleSheet.create({
     borderRadius: 5,
   },
   shoppingTitle: {
+    marginTop: 40,
+  },
+  casinoTitle: {
     marginTop: 40,
   },
 });

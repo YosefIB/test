@@ -10,14 +10,8 @@ export default function ShoppingManagement() {
       <ThemedText type="title">Shopping Management</ThemedText>
       <Image source={pic} style={styles.image} />
       <ThemedText type="subtitle">Manage your shopping list with ease!</ThemedText>
-      <Link href="/ShoppingManagement/Create" style={styles.button}>
-        <ThemedText type="button">Add New Item</ThemedText>
-      </Link>
       <Link href="/ShoppingManagement/List" style={styles.button}>
-        <ThemedText type="button">View Shopping List</ThemedText>
-      </Link>
-      <Link href="/ShoppingManagement/Edit" style={styles.button}>
-        <ThemedText type="button">Edit Item</ThemedText>
+        <ThemedText type="button">Add New Itemt</ThemedText>
       </Link>
     </ThemedView>
   );
